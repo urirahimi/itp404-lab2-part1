@@ -12,4 +12,5 @@ promise.then(restaurants => {
     restaurants: restaurants.data
   });
   $("body").append(renderedRestaurants);
+  $("#loading").css("display", "none");
 });
